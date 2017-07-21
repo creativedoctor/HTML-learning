@@ -4,45 +4,48 @@
 	<title>Playground</title>
 	<meta charset ="utf-8"> <!-- se não definimos isto por vezes há páginas que fazem loading de caracteres estranhos -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href="style.css" rel='stylesheet'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> <!--ícones sociais-->
+	<link href='style.css' rel='stylesheet'>
 </head>
 <body>
-	<div id="header">
-		<h1>Le Wagon</h1>
-		<p>This is the important stuff.</p>
-		<a href="#">Subscribe to my product now!</a> <!--temos links-->
-		<p></p>
-		<img src="images/briefcase.png" alt="Briefcase">
-	</div>
+		<div class="container">
+			<div class="row">
+					<div id="header">
+			<h1>Le Wagon</h1>
+			<p>This is the important stuff.</p>
+			<b href="#"><u>Subscribe to my product now!</u></b> <!--temos links-->
+			<p></p>
+					</div>
 
-	<div class="container">
-				<div class="row">
-					<div class="feature col-xs-3">
+	
+					<div class="col-xs-12 col-sm-6 col-md-3">
+			<img src="images/briefcase.png" alt="Briefcase">
 			<h2>My product is amazing</h2>
 			<p>Yup that's it, it's really amazing</p>
-		</div>
+					</div>
 
-				<div class="row">
-					<div class="feature col-xs-3">
-			<h2>
+					<div class="col-xs-12 col-sm-6 col-md-3">
 			<img src="images/heart.png" alt="heart">
 			<h2>My product is great</h2>
 			<p>Yup that's it, it's really great</p>
-		</div>
-
-		<div class="feature">
+					</div>
+		
+					<div class="col-xs-12 col-sm-6 col-md-3">
 			<img src="images/diamond.png" alt="diamond">
 			<h2>My product is awesome</h2>
 			<p>Yup that's it, it's really awesome</p>
-		</div>
+					</div>
 
-		<div class="feature">
+					<div class="col-xs-12 col-sm-6 col-md-3">
 			<img src="images/laptop.png" alt="laptop">
 			<h2>My product is huge</h2>
 			<p>Yup that's it, it's really huge</p>
+					</div>
 		</div>
-
+		</div>
 		<div id="footer">
 			<ul style="list-style-type:none">
 			  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -50,7 +53,6 @@
 			  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			  <li><a href="#"><i class="fa fa-github"></i></a></li>
 			</ul>
-	</div>
-	</div>
+		</div>
 </body>
 </html>
